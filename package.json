@@ -1,0 +1,21 @@
+{
+  "name": "class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "mocha verify2 -R spec -g 'Implement Class Constructor'",
+    "test2": "mocha verify2 -R spec -g 'Implement Instance Methods'",
+    "test3": "mocha verify2 -R spec -g 'Implement Methods Inheritance'",
+    "test4": "mocha verify2 -R spec -g 'Implement Class __super__'",
+    "test5": "mocha verify2 -R spec -g 'Implement Super'",
+    "test6": "mocha verify2 -R spec -g 'Implement Supers Super'"
+  },
+  "keywords": [],
+  "author": "fanyong <fanyong@gmail.com> (http://fy98.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
